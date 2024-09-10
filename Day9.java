@@ -12,7 +12,7 @@ public class Day9 {
         System.out.println("Pesan        : "+pesan);
         System.out.println("Alamat Pesan : "+alamat);
         
-        // Akan error jika ingin update nilai awal variabel karena sudah tidak bisa. contohnya nama variabelnya nama
+        // Akan error jika ingin update nilai awal variabel karena sudah tidak bisa, kecuali kata "final" nya di hapus. contohnya nama variabelnya nama
         // nama = "irgi";
         
     }
