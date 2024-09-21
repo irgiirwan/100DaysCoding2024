@@ -4,8 +4,8 @@ public class Day20 {
     public static void main(String[] args) {
         // Tugas penggunaan Tipe data reference Byte
         
-        Byte objekByte = 10;  // Membuat objek Byte dengan nilai 10
+        Byte objekByte = 8;  // Membuat objek Byte dengan nilai 8
         
-        System.out.println("Nilai Objek Byte: " + objekByte);  // Output: 10
+        System.out.println("Nilai Objek Byte: " + objekByte);  // Output: 8
     }
 }
