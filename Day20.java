@@ -6,6 +6,6 @@ public class Day20 {
         
         Byte objekByte = 8;  // Membuat objek Byte dengan nilai 8
         
-        System.out.println("Nilai Objek Byte: " + objekByte);  // Output: 8
+        System.out.println("Nilai Objek Byte: " + objekByte);
     }
 }
