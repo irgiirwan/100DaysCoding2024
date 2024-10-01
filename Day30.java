@@ -8,6 +8,6 @@ public class Day30 {
         
         BigDecimal objekBig = new BigDecimal("01234567890123456789.01234567890123456789");
         
-        System.out.println("nilai objek Big Integer: "+objekBig);
+        System.out.println("nilai objek Big Decimal: "+objekBig);
     }
 }
