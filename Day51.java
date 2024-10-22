@@ -18,7 +18,7 @@ public class Day51 {
                 System.out.println("Mendapatkan nilai cukup baik");
                 break;
             default:
-                System.out.println("Angka Belum ada dalam data");
+                System.out.println("Belum ada dalam data");
                 break;
         }
     }
