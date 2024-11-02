@@ -8,7 +8,7 @@ public class Day62 {
         int i = 1;
         while(i <= 10) {
             System.out.println("Angka Ke-"+i);
-            if(i >= 5) {
+            if(i == 5) {
                 break;
             }
             i++;
