@@ -1,11 +1,9 @@
 package SeratusHariJava;
 
-import java.util.Scanner;
-
 public class Day64 {
 
     public static void main(String[] args) {
-    // break label
+        // break label
         
         outerLoop:
         for (int i = 0; i < 5; i++) {
