@@ -4,7 +4,7 @@ public class Day67 {
     // Method void
     
     public static void tampilPesan() {
-        System.out.println("Halo, ini adalah pesan dari method void!");
+        System.out.println("Halo, Dunia!");
     }
 
     public static void tampilPerkalian(int a, int b) {
