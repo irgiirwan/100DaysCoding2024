@@ -2,7 +2,7 @@ package SeratusHariJava;
 
 public class Day87 {
     public static void main(String[] args) {
-        // Mencetak elemen pada Array satu dimensi 
+        // Mengubah Nilai Array satu dimensi pada index Tertentu 
         
         int angka[] = new int[]{1,2,3,4,5};
         
