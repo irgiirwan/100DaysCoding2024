@@ -1,4 +1,3 @@
-
 package SeratusHariJava;
 
 import java.util.Scanner;
@@ -18,7 +17,7 @@ public class Day88 {
         
         System.out.println("\nData Profile");
         System.out.printf("Nama: %s%n", Nama);
-        System.out.printf("Umur: %d%n", Umur);
+        System.out.printf("Umur: %d tahun%n", Umur);
         System.out.printf("Status Keanggotaan: %s%n", StatusKeanggotaan ? "Member" : "Non-member");
         
         if(Umur > 18) {
