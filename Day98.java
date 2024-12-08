@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Day98 {
     public static void main(String[] args) {
-      // Soal : Total penjumlahan bilangan genap dari x ke y
+        // Soal : Total penjumlahan bilangan genap dari x ke y
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Angka awal: ");
@@ -16,14 +16,17 @@ public class Day98 {
         for(int i = x; i <= y; i++) {
             if(i % 2 == 0) {
                 t += i;
-                if(i == y) {
-                    System.out.print(i + " = ");
-                } else {
-                    System.out.print(i + " + ");
-                }
+//                if(i == y) {
+//                    System.out.print(i + " = ");
+//                } else if(i % 2 != 0) {
+//                    System.out.print(i + " = ");
+//                } else {
+//                    System.out.print(i + " + ");
+//                }
             }
         }
-        System.out.print(t);
-        System.out.println("");
+        System.out.println("Total penjumlahan bilangan genap dari " + x + " ke " + y + " adalah: " + t);
+//        System.out.print(t);
+//        System.out.println("");
     }
 }
