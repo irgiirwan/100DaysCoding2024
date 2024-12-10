@@ -13,13 +13,12 @@ public class Day100 {
         String nama = sc.nextLine();
         
         LocalTime waktuSaatIni = LocalTime.now();
-        int jamSaatIni = waktuSaatIni.getHour();
         
         String salam = "";
         
-        if(jamSaatIni < 12) {
+        if(waktuSaatIni.isBefore(LocalTime.NOON)) {
             salam = "Selamat pagi";
-        } else if(jamSaatIni < 17) {
+        } else if(waktuSaatIni.isBefore(LocalTime.of(17, 0))) {
             salam = "Selamat siang";
         } else {
             salam = "Selamat malam";
